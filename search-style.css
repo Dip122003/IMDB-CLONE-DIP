@@ -1,10 +1,10 @@
 #search-list {
     width: 778.237px;
     margin: 0 auto;
-    /* top: 4.5%; comment
-    left: 628px; comment */
+    top: 4.5%;
+    left: 628px; 
     z-index: 10;
-    /* position: fixed; comment */
+    position: fixed;
     max-height: 500px;
     overflow-y: scroll;
     border-bottom-left-radius: 25px;
