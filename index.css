@@ -33,24 +33,24 @@ nav {
 }
 
 #search-bar input {
-    width: 90%;
+    /* width: 90%; */
     outline: none;
-    color: white;
+    color: black;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: rgba(90, 86, 86, 0.771);
-    transition: 0.2s ease border-bottom-left-radius, 0.2s ease border-bottom-right-radius;
+    transition: 0.2s ease border-bottom-left-radius, 0.2s ease border-bottom-right-radius; */
 }
 
 .search-query::-webkit-input-placeholder {
     font-size: medium;
-    color: rgba(255, 255, 255, 0.668);
+    color: b;
 }
 
-#search-bar .search-btn {
+#search-bar .search-btn { 
     width: 10%;
     border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-bottom-right-radius: 25px; */
 }
 
 .searchbar-logo {
@@ -80,30 +80,30 @@ nav {
 
 
 /* START OF FAV TILES SETTINGS */
-.fav-tiles div {
+ .fav-tiles div { 
     margin: auto;
     padding: 30px 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 /* END OF FAV TILES SETTINGS */
 
 /* START OF MOVIE INFO SETTINGS */
-section {
+/* section {
     height: auto;
     margin-top: 200px;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-}
+} */
 
 #movie-image img {
-    width: 300px;
+    /* /* width: 300px; */
     height: 450px;
     margin-left: 50px;
     margin-right: 100px;
     border: 5px solid white;
-}
+} */
 
 #movie-info {
     width: 450px;
